@@ -7,3 +7,4 @@ run: |</br>
           dotnet build --configuration Release</br>
           dotnet-coverage collect 'dotnet test' -f xml -o 'coverage.xml'</b></br>
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"</br>
+

@@ -2,7 +2,7 @@
 
 namespace Calculator
 {
-    internal class Program
+    internal stitc class Program
     {
         static void Main(string[] args)
         {
